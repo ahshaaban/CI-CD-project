@@ -1,17 +1,17 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project we set up Azure App Services to deploy a falsk app and integrate it with Azure Pipelines in order to implement Continuous Delivery.
 
 ## Project Plan
-<TODO: Project Plan
+Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+Building a CI/CD Pipeline | Trello
+Project management - Google Sheets
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+
+![image](https://user-images.githubusercontent.com/95375151/205130650-19f481e2-f0b2-49aa-bb15-e805d6143c34.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
