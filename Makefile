@@ -4,6 +4,8 @@ setup:
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+install:
+	pip install locust
 
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
