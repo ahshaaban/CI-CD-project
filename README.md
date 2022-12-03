@@ -38,12 +38,17 @@ Make a new repository for the project with the files in the Project  [ ahshaaban
 
 ![image](https://user-images.githubusercontent.com/95375151/205317504-101e4fee-0686-4eda-80be-21435b3e4d61.png)
 
-   2. run ```make install```
+   2. Run ```make install```
+
 
    3. Create an app service and initially deploy your app in Cloud Shell:
-    ```az webapp up -n <your-appservice>```
+
+    az webapp up -n <your-appservice>
+
 
    4. Verify the deployed application works by browsing to the deployed url
+
+
       ![image](https://user-images.githubusercontent.com/95375151/205319243-cce34bc1-3b7a-4da8-a531-7a088f8e14ff.png)
       
 ### Step 4: Perform Prediction
@@ -55,21 +60,30 @@ Change the line in make_predict_azure_app.sh to match the deployed prediction:
 ![image](https://user-images.githubusercontent.com/95375151/205319601-faf8cc6e-0093-4901-a91d-b796ac0f42eb.png)
   
   ### Step 5: Create an Azure DevOps project
-    1. Create new project and name it
-     ![image](https://user-images.githubusercontent.com/95375151/205320259-e4902b5e-24fd-4c20-8d2a-c1f95223cd27.png)
+    
+ 1. Create new project and name it
+
+
+![image](https://user-images.githubusercontent.com/95375151/205320259-e4902b5e-24fd-4c20-8d2a-c1f95223cd27.png)
+
+     
   
-    2. Set up a new service connection via Azure Resource Manager and Pipeline
+ 2. Set up a new service connection via Azure Resource Manager and Pipeline
+
       ![image](https://user-images.githubusercontent.com/95375151/205320453-f15c3012-6dcd-428a-ac9d-2ed2bc868614.png)
+
       ![image](https://user-images.githubusercontent.com/95375151/205320620-c1d4d152-bf71-4127-b67f-d9e87f279fae.png)
 
 
-   3.  create a Pipeline
+ 3.  Create a Pipeline
+
   ![image](https://user-images.githubusercontent.com/95375151/205320874-0a131af3-bd1e-4401-806d-46661fc99752.png)
 
-   4. Integrate with GitHub:
+ 4. Integrate with GitHub:
+
    ![image](https://user-images.githubusercontent.com/95375151/205321116-6de14c25-6b88-4ac6-9cd0-0282e481785f.png)
 
-   5. Configure Python to Linux Web App on Azure and choose your webapp name:
+ 5. Configure Python to Linux Web App on Azure and choose your webapp name:
   
   ![image](https://user-images.githubusercontent.com/95375151/205321300-8abfcfa6-3392-49cb-96b7-0370f7a66143.png)
 
