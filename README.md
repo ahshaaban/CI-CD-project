@@ -19,50 +19,65 @@ Porject Sheet ->[[Project management - Google Sheets](https://docs.google.com/sp
 ![image](https://user-images.githubusercontent.com/95375151/205130650-19f481e2-f0b2-49aa-bb15-e805d6143c34.png)
                                 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
-### Step 1: Launch Cloud Shell:
 
-Go to the Azure Console and launch a bash shell.
 
-![image](https://user-images.githubusercontent.com/95375151/205315252-6ca944a6-3507-404a-9722-68f2d4837b82.png)
+### Step 1: Set Up Your Repos:
 
-### Step 2: Set Up Your GitHub Repo 
+**1. Create GitHub Repo and upload the project files**
+
+
 Make a new repository for the project with the files in the Project  [ ahshaaban/CI-CD-project](https://github.com/ahshaaban/CI-CD-project)
 
 
 
 ![image](https://user-images.githubusercontent.com/95375151/205316206-260e951c-d4c4-43e7-acd3-03c599514c58.png)
 
-### Step 3: Clone the Repo and Create virtual Environment:
 
-  1. Setup virtual environement
+
+**2. Clone your GitHub Repo and set a virtual Environment**
+
+
+
+    1. Go to the Azure Console,  launch cloud shell and clone the rebo created in the above step.
+
+![image](https://user-images.githubusercontent.com/95375151/205446493-370bdf35-8d39-4426-98ec-41cb5292371d.png)
+
+
+    2. Setup virtual environement
 
 ![image](https://user-images.githubusercontent.com/95375151/205317504-101e4fee-0686-4eda-80be-21435b3e4d61.png)
 
-   2. Run ```make install```
+  ### Step 4: install dependancies by running ```make install```
+  
+  ![image](https://user-images.githubusercontent.com/95375151/205446162-c067d8ee-3d7f-44f4-a275-0f237b3e41b7.png)
 
-
-   3. Create an app service and initially deploy your app in Cloud Shell:
+  
+  ### Step 5: Create and verify an app service:
+  
+  1. initially deploy your app in Cloud Shell:
 
     az webapp up -n <your-appservice>
 
 
-   4. Verify the deployed application works by browsing to the deployed url
+   2. Verify the deployed application works by browsing to the deployed url
 
 
       ![image](https://user-images.githubusercontent.com/95375151/205319243-cce34bc1-3b7a-4da8-a531-7a088f8e14ff.png)
       
-### Step 4: Perform Prediction
+### Step 6: Perform Prediction
 
 Change the line in make_predict_azure_app.sh to match the deployed prediction:
 
 -X POST https://<yourappname>.azurewebsites.net:$PORT/predict
 
 ![image](https://user-images.githubusercontent.com/95375151/205319601-faf8cc6e-0093-4901-a91d-b796ac0f42eb.png)
+ 
+ 
   
-  ### Step 5: Create an Azure DevOps project
+  ### Step 7: Create an Azure DevOps project
     
+ 
  1. Create new project and name it
 
 
