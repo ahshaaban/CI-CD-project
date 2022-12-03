@@ -4,14 +4,17 @@ In this project we set up Azure App Services to deploy a falsk app and integrate
 
 ## Project Plan
 
-[https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline](https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline)
+Trello Board -> [https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline](https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline)
 
-[[Project management - Google Sheets](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit#gid=489099311)](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit?usp=sharing)
+Porject Sheet ->[[Project management - Google Sheets](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit#gid=489099311)](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit?usp=sharing)
 
 ## Instructions
-### Below are the main building blocks of the project:
 
-                                              Architectural Diagram
+
+ ## Architectural Diagram
+
+![image](https://user-images.githubusercontent.com/95375151/205433504-26092f88-30b1-42fa-8bec-e829f3ece8fa.png)
+
 
 ![image](https://user-images.githubusercontent.com/95375151/205130650-19f481e2-f0b2-49aa-bb15-e805d6143c34.png)
                                 
