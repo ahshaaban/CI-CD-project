@@ -4,15 +4,17 @@ In this project we set up Azure App Services to deploy a falsk app and integrate
 
 ## Project Plan
 
-https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline
+[https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline](https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline)
 
-[Project management - Google Sheets](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit#gid=489099311)
+[[Project management - Google Sheets](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit#gid=489099311)](https://docs.google.com/spreadsheets/d/1NncFmA4vzYH5yNf06xwX3eAY33LBwLrNu3RNU1POZI8/edit?usp=sharing)
 
 ## Instructions
 ### Below are the main building blocks of the project:
 
+                                              Architectural Diagram
 
 ![image](https://user-images.githubusercontent.com/95375151/205130650-19f481e2-f0b2-49aa-bb15-e805d6143c34.png)
+                                
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
