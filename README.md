@@ -30,6 +30,8 @@ Go to the Azure Console and launch a bash shell.
 ### Step 2: Set Up Your GitHub Repo 
 Make a new repository for the project with the files in the Project  [ ahshaaban/CI-CD-project](https://github.com/ahshaaban/CI-CD-project)
 
+
+
 ![image](https://user-images.githubusercontent.com/95375151/205316206-260e951c-d4c4-43e7-acd3-03c599514c58.png)
 
 ### Step 3: Clone the Repo and Create virtual Environment:
@@ -94,6 +96,11 @@ Change the line in make_predict_azure_app.sh to match the deployed prediction:
 ![image](https://user-images.githubusercontent.com/95375151/205322409-57c25531-764f-4877-8d95-3ab0a71b1a7a.png)
 
 
+## Step 7: Install and run locust
+* Install via ```pip insall locust```
+* Run via ```locust -f locust.py```
+
+![image](https://user-images.githubusercontent.com/95375151/205444016-7b6a65ea-cd24-4d78-a783-64a98dfaa665.png)
 
 
 
