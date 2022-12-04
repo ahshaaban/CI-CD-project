@@ -4,10 +4,9 @@ from locust import HttpUser, task, between
 class QuickstartUser(HttpUser):
     wait_time = between(1, 2.5)
 
-    @task
+    @task(1)
     def hello_world(self):
-        self.client.get("/")
-
+        self.client.get("https://flask-ci-cd.azurewebsites.net")
+     @task(2)
     def on_start(self):
-        self.client.post("/predict", json={"username":"foo", "password":"bar"})
-        host = 'https://flask-ci-cd.azurewebsites.net'
+        self.client.post("https://flask-ci-cd.azurewebsites.net:443/predict")
