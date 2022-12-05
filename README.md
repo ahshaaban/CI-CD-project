@@ -117,6 +117,9 @@ Change the line in make_predict_azure_app.sh to match the deployed prediction:
 
 ![image](https://user-images.githubusercontent.com/95375151/205444016-7b6a65ea-cd24-4d78-a783-64a98dfaa665.png)
 
+![image](https://user-images.githubusercontent.com/95375151/205687070-37d30836-9f6e-4927-83d0-f2e9572bc290.png)
+
+
 
 ## Step 8: Visual Demo of the project:
 
