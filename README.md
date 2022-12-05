@@ -2,6 +2,8 @@
 
 In this project we set up Azure App Services to deploy a falsk app and integrate it with Azure Pipelines in order to implement Continuous Delivery.
 
+[![Python application test with Github Actions](https://github.com/ahshaaban/CI-CD-project/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/ahshaaban/CI-CD-project/actions/workflows/pythonapp.yml)
+
 ## Project Plan
 
 Trello Board -> [https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline](https://trello.com/b/aPBwTDFY/building-a-ci-cd-pipeline)
